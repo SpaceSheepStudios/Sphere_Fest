@@ -5,35 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sphere Fest</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javascript/orb.js"></script>
 </head>
 <body>
-    <header>
+    <header id="header">
+        <script src="javascript/sticky-header.js"></script>
         <nav>
-            <!-- Navigation Links -->
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About the Festival</a></li>
-                <li><a href="#testimonials">Workshops</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#">About Sphere Fest</a></li>
+                <li><a href="#gallery">Workshops</a></li>
                 <li><a href="#">Tickets</a></li>
             </ul>
         </nav>
+        </br>
     </header>
-    <main>
-        <section>
-            <!-- Hauptinhalt -->
-            <div class="home">
-                <img src="assets/logo-festival.png" size: alt="logo" class="logo">
-                <h1> The world's biggest </h1>
-                <h1> Tech Festival! </h1>
-            </div>
-        </section>
-    </main>
+    <div class="home">
+        <h2>World's biggest </h2>
+        <h1>Tech Festival</h1>
+        <h2> is back again!</h2>
+    </div>
+    <canvas></canvas>
+    <div class="about">
+        </br>
+        <h1>About Sphere Fest</h1>
+        </br>
+        <div class="info">
+            <p> Sphere Fest is the world's biggest technology festival. It is a platform for tech enthusiasts to come together and share their knowledge. </p>
+            <p> The festival is a 3-day event that includes workshops, talks, and networking opportunities. </p>
+            <p> Sphere Fest is a celebration of technology and innovation, and it aims to inspire and educate the next generation of tech leaders. </p>
+        </div>
+        </br>
+        <h3>Ticket presale for Sphere Fest 2024 starts in: </h3>
+        <div class="countdown">
+            <h4 id="timer"></h4>
+            <script src="javascript/timer.js"></script>
+        </div>
+        </br>
+    </div>
+    <div class="gallery" id="gallery">
+        <h1 class="blau">Gallery</h1>
+        <div class="gallery-1">
+        <a class="example-image-link" href="bilder/gallery-img-01.jpg" data-lightbox="example-set">
+            <img class="boxgallery" alt="" src="Bilder/gallery-img-01.jpg" width="75%" /></a>
+        </div>
+        <div class="gallery-1">
+        <img class="boxgallery" src="Bilder/gallery-img-02.jpg"  width="75%">
+        </div>
+          <div class="gallery-1"><img class="boxgallery" src="Bilder/gallery-img-03.jpg"  width="75%">
+        </div>
+          <div class="gallery-1"><img class="boxgallery" src="Bilder/gallery-img-04.jpg"  width="75%">
+        </div>
+          <div class="gallery-1"><img class="boxgallery" src="Bilder/gallery-img-05.jpg"  width="75%">
+        </div>
+    </div>
     <footer>
-        <!-- Footer-Inhalt -->
+        <div class="footer">
+            <h2> Don't miss out! </h2>
+            <img src="assets/logo-festival.png" alt="Logo" class="logo">
+        </div>
     </footer>
-    <!-- 
-    <script src="scripts.js"></script>
-    -->
 </body>
 </html>
