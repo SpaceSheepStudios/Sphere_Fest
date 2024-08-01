@@ -263,8 +263,8 @@ canvas {
 }
 
 input {
-    width: 15%;
-    line-height: 28px;
+    width: 20%;
+    line-height: 32px;
     border-radius: 30px;
     border: 1px solid #747474;
     padding-left: 1%;
@@ -279,7 +279,7 @@ input {
     background-color: #9EBDDB;
     color: white;
     border: none;
-    width: 12%;
+    width: 15%;
     border-radius: 30px;
     padding: 10px;
     cursor: pointer;
