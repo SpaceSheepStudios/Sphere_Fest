@@ -96,16 +96,6 @@ header {
     z-index: 1000;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-  
-.sticky + .home {
-    padding-top: 102px;
-}
-
 body {
     background-color: black;
     color: white;
