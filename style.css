@@ -36,7 +36,7 @@ h3 {
 
 h4 {
     font-size: 4em; 
-    color: #9EBDDB; 
+    color: #ffffff; 
     text-align:center; 
     padding: 7px; 
     font-weight: normal;
@@ -47,6 +47,21 @@ h5 {
     color: #9EBDDB; 
     text-align:center; 
     padding: 7px; 
+    font-weight: normal;
+}
+
+h6 { 
+    font-size: 0.7em; 
+    color: #ffffff; 
+    text-align:center; 
+    padding: 2px; 
+    font-weight: normal;
+}
+
+p { 
+    color: #ffffff; 
+    text-align:center; 
+    padding: 2px; 
     font-weight: normal;
 }
 
@@ -138,18 +153,34 @@ canvas {
     height: 100%;
 }
 
-.resellers {
-    height: 233px;
-    width: 3550px;
-    margin-bottom: 80px;
+.logos {
+    background: #000000;
+    overflow: hidden;
+    
 }
 
-.resellers img {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+.resellers {
+	height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+	gap: 5rem;
+	padding-inline: 2.5rem;
+    animation: scrolllogos 40s linear infinite;
+}
+
+.resellers-logo {
+	width: 200px;
+}
+
+@keyframes scrolllogos {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-30%);
+    }
 }
 
 .gallery {
