@@ -8,7 +8,6 @@ window.onload = function () {
     canvas = document.getElementsByTagName("canvas")[0];
     ctx = canvas.getContext("2d");
     canvas.width = canvas.height = 400;
-    ctx.fillRect(0, 0, 400, 400);
 
     var r = 0;
     for (var a = 0; a < MAX; a++) {
