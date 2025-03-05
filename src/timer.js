@@ -1,3 +1,5 @@
+resetCountdown("Dec 25, 2025 23:59:59");
+
 var countDownDate = new Date("Oct 31, 2025 23:59:59").getTime();
 
 var x = setInterval(function() {
